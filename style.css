@@ -457,6 +457,7 @@ body {
 
 }
 
+/*Voices page*/
 .voices-first {
   position: relative;
   background-color: white;
@@ -509,6 +510,7 @@ body {
   text-align: left;
 }
 
+/*Additional content for the voices page*/
 .voices-second {
   position: relative;
   background-color: white;
@@ -538,6 +540,7 @@ body {
   color: #53AED5;
 }
 
+/*FAQ section that features basic QA*/
 .faq-title {
   justify-content: center;
   text-align: center;
@@ -575,6 +578,8 @@ body {
 
 }
 
+/*For hiding desktop items for mobile mode*/
+
 .hide-on-desktop {
   display: none;
 }
@@ -592,7 +597,8 @@ like this*/
 }
 */
 
-.rectangle{
+/*Rectangle made specifically for the project. Serves as a unique separator*/
+.rectangle {
   width:80px;
   height:8px;
   background:white;
@@ -603,6 +609,7 @@ like this*/
 }
 
 
+/*Ditto*/
 .problem-solving-first .rectangle {
   width:80px;
   height:8px;
