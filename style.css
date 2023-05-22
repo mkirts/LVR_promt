@@ -183,6 +183,7 @@ body {
 /*The "footer" of the page. Current intent is to include a FAQ button and a separate CSS for its button*/
 .landing_page_bottom {
   background-color: #EFF3F7;
+  padding-bottom: 2em;
 }
 
 .landing_page_bottom .container {
