@@ -1,0 +1,99 @@
+<!--- Main index file/landing page. Current intent (as evidenced by the dropdown)
+is to create multiple pages to minimize scrolling and to make navigation more convenient.
+
+This page contains the front page for "Hair Marche". The header features use of JavaScript for dropdown animation.
+Classes labeled "middle class one" and "middle class two" are the main content pieces, with the first featuring a background
+image promoting the site, and the second featuring additional information.
+Footer also features several lines and an icon in a stylization similar to the mockup.
+
+Current plan is to include a link or button that takes the user directly to the FAQ page.
+-->
+
+<!--Comments appreciated!-->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAIR MARCHE</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>      
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="dropdown" data-dropdown>
+        <a class ="item"><i class="adjust icon"></i></a>
+        <button class="link" data-dropdown-button>HAIR MARCHE	&#11167; &nbsp; &nbsp;</button>
+        <div class="d_menu">
+          <div class="dropdown-links">
+            <a href="index.html">メインページ</a>
+            <a href="voices.html">ご利用者様の声</a>
+            <a href="about-hair-marche.html">ヘアマルシェでできること</a>
+            <a href="problem-sovling.html">こんなお悩みありませんか？</a>
+            <a href="faq.html">FAQ</a>
+          <a href="#"><i class = "linechat icon"></i>HAIR MARCHE LINE</a>
+        </div>
+        </div>
+      <button class="ui green button"><i class = "linechat icon"></i>LINEで無料登録</button>
+
+      </div>
+      </div>
+
+      <!--- Center Class that features photo, text, and Linechat button-->
+      <div class = "middle class one">
+        <div class = "landing_overlay">
+          <div class = "container">
+            <h1>個人スタイリストの 場所予約も集客も これひとつで完結</h1>
+            <h3>スタイリスト検索・予約サービス「ヘアマルシェ」<br>&bsol; 30秒で簡単・無料 &sol;<br></h3>
+            <button class="ui green button"><i class = "linechat icon"></i>LINEで無料登録</button>
+          </div>
+      </div>
+    </div>
+
+    <!--- Includes 3 columns that showcase the different uses for Hair Marche-->
+    <div class = "middle class two">
+      <div class = "container">
+        <h1>スマホひとつで<br>集客から場所の予約、売上管理まで</h1>
+        <p>予約や売上の管理まで<span style="color: #53AED5;">スマホひとつ</span>で完結。<br> スタイリストとお客様、スタイリストと美容室オーナーをつなぎます。</p>
+        <div class="stackable ui grid">
+          <div class="four wide column">
+              <img src="./img/icon_on_mobile.png">
+          </div>
+          <div class="four wide column">
+            <img src="./img/icon_connect.png">
+          </div>
+          <div class="four wide column">
+            <img src="./img/icon_stonks.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--- Bottom of this page. Will also feature a link to go to the FAQ-->
+    <!--- Linechat button might be removed on this portion due to redundancy-->
+    <div class = "landing_page_bottom">
+      <div class="container">
+        <div class="stackable ui grid">
+          <div class="eight wide column">
+            <img src="./img/icon_scissors.png">
+            <h1>ヘアマルシェは <br> こんな方にオススメ</h1>
+            <h3><i class="check circle icon" style="color: #54AFD5;"></i>将来独立を目指している</h3>
+          </div>
+        </div>
+        <div class ="stackable ui grid">
+          <div class="eight wide column">
+            <h3><i class="check circle icon" style="color: #54AFD5;"></i>個人で稼ぎたいけど開業資金がない</h3>
+          </div>
+          <div class="eight wide column">
+            <h3><i class="check circle icon" style="color: #54AFD5;"></i>お客様一人ひとりと向き合いたい</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

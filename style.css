@@ -1,0 +1,690 @@
+/*The CSS page that features all of the styles for the website and its content*/
+
+/*Additional programs used for reference:
+Figpea: used to extract images from the mockup and for viewing the .xd file
+Paint 3D: used to make modifications on images
+*/
+
+/*Additional Resources:
+Semantic UI: Reference pages used to acquire certain icons and extract certain layout items.
+Stack Overflow: for general questions regarding CSS mishaps or clarification, particularly on
+the mobile applicaiton.
+*/
+
+/*Comments appreciated!*/
+
+body {
+    margin: 0;
+    background-color:white;
+}
+
+/*This sectin contains all the styles used for the top menu bar*/
+/*Also included is the CSS and implementation of JS script for cascading dropdown function*/
+/*See 'script.js'*/
+.header {
+    background-color: #F8F8F8;
+    height: 60px;
+    align-items: baseline;
+    padding: .5rem;
+    gap: 1rem;
+}
+
+.link {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #777;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 0;
+    text-align: center;
+}
+
+.dropdown.active> .link,
+.link:hover {
+    color:black;
+}
+
+.dropdown {
+    position: relative;
+    padding: 10px 100px;
+}
+
+.d_menu {
+    position: absolute;
+    left: 50px;
+    top: calc(100% + .25rem);
+    background-color: white;
+    padding: 1rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    transform: translateY(-10px);
+    z-index: 1;
+} 
+
+.d_menu a:hover {
+    background-color: lightgray;
+}
+
+.dropdown-links {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    padding: .75rem;
+}
+
+.dropdown.active > .link + .d_menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/*end top menu section*/
+
+.item {
+    color: black;
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  /*CSS section for main content in the landing page*/
+  /*Includes a background image, colour gradient, and slight deviation from the original mockup*/
+  /*Note: WIP on CSS styling*/
+  .middle.class.one {
+    background-image: url('img/hair_marche.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    max-width: 100%;
+    background-position: 100px 0px;
+  }
+
+  .linechat.icon {
+    font-size: 20px;
+  }
+
+  .header .ui.green.button {
+    float: right;
+    margin-top: -5px;
+  }
+
+  .landing_overlay {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(86, 88, 89, 1), 70%, rgba(0,0,0,0));
+
+  }
+  
+ .middle.class.one .container {
+    text-align: center;
+    top: 400px;
+    position: relative;
+    padding-left: 1em;
+  }
+
+.middle.class.one .container h1, .middle.class.one .ui.container h3 {
+    color: #FFFFFF;
+    justify-content: center;
+
+  }
+
+  .middle.class.one .container h1 {
+    padding-top: 3em;
+    font-size: 50px;
+    
+  }
+
+  .middle.class.one .container h3 {
+    font-size: 30px;
+  }
+
+  .container .ui.green.button {
+    margin: 10px -85px;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    justify-content: center;
+}
+/*End of middle class one section*/
+
+/*Second portion which includes several columns that are used to separate icons*/
+.middle.class.two {
+  background-color: white;
+}
+
+.middle.class.two .container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.middle.class.two .container h1, .middle.class.two .ui.container h3 {
+  color: black;
+}
+
+.middle.class.two .container p {
+  font-size: 25px;
+}
+
+.middle.class.two .ui.grid {
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+/*End of middle class two section*/
+
+
+/*The "footer" of the page. Current intent is to include a FAQ button and a separate CSS for its button*/
+.landing_page_bottom {
+  background-color: #EFF3F7;
+}
+
+.landing_page_bottom .container {
+  position: relative;
+}
+
+.landing_page_bottom h1{
+  color: #54AFD5;
+  text-align: center;
+  font-size: 35px;
+}
+
+.landing_page_bottom .ui.grid {
+  margin-top: 2em;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+/*End of footer section*/
+
+
+/*Section for the page "aboout-hair-marche.html*/
+
+.about-page-topper h1 {
+  text-align: center;
+  padding-top: 2em;
+  font-weight: 500;
+  color:#53AED5;
+
+}
+
+.about-page-main-content {
+  background-color: #EFF3F7;
+
+}
+
+.about-page-main-content .ui.grid {
+  justify-content: center;
+  padding: .5em;
+  line-height: 60px;
+  
+}
+
+.about-page-main-content .container {
+  padding-top: 6em;
+  position: relative;
+  text-align: center;
+  
+
+}
+
+.about-page-main-content .container .ui.grid .column h1 {
+  line-height: 60px;
+  position: relative;
+  font-size: 48px;
+  padding-bottom: 1em;
+}
+
+.about-page-main-content .container .ui.grid .column h3 {
+  line-height: 35px;
+  position: relative;
+  font-size: 24px;
+}
+
+.about-page-main-content .container .ui.grid .column h1, .about-page-main-content .ui.container .ui.grid .column h3 {
+  position: relative;
+  color: gray;
+  top: 40px;
+
+}
+.about-page-main-content .container .ui.grid .column img {
+  justify-content: center;
+  position: relative;
+}
+
+.about-page-second-content .container {
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.about-page-second-content .container h1 {
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  font-size: 56px;
+  color: #54AFD5;
+
+
+}
+
+.about-page-second-content .container h2 {
+  font-size: 35px;
+  color: #54AFD5;
+
+}
+
+.about-page-second-content .container .ui.grid {
+  justify-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.about-page-notice {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.about-page-bottom {
+  background-color: #EDFFF3;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  margin: auto;
+  display: grid;
+  
+}
+
+.about-page-bottom h1 {
+  color: #06C755;
+}
+
+.about-page-bottom .ui.green.button {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+/*Another about page, though asking some general questions while showcasing diagrams*/
+.but-first {
+  justify-content: center;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.but-first h3 {
+  color: #54AFD5;
+}
+
+.problem-solving-first .ui.grid h3 {
+  position: relative;
+  background-color: #EFF3F7;
+  color: #54AFD5;
+  border-radius: 15px;
+  
+}
+
+.problem-solving-first .ui.grid {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.problem-solving-second {
+  background-color:#EFF3F7;
+}
+
+.problem-solving-second .container {
+  padding-top: 4.5em;
+  justify-content: center;
+  text-align: center;
+}
+
+.problem-solving-second .ui.grid {
+  justify-content: center;
+  text-align: center;
+}
+
+.problem-solving-second h3 {
+  font-weight: 525;
+}
+
+.problem-solving-third {
+  background-color: #EFF3F7;
+  justify-content: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.problem-solving-third h1 {
+  text-align: center;
+  padding-top: 1em;
+  font-weight: 550;
+}
+
+.problem-solving-third h3 {
+  text-align: center;
+  font-weight: 500;
+}
+
+
+.problem-solving-third .ui.grid {
+  background-color: #EFF3F7;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  
+
+}
+
+.problem-solving-third .ui.grid h1 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.problem-solving-third .ui.grid h3 {
+  text-align: center;
+}
+
+.problem-solving-third .ui.grid .column .image {
+  justify-content: center;
+}
+
+.problem-solving-third .column {
+  background-color: white;
+  
+}
+
+.problem-solving-third .ui.grid .grid-image {
+  width: 200px; 
+  height: 30px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-left: 30px;
+}
+
+
+.problem-solving-fourth {
+  text-align: center;
+  background-color: #F2F8FD;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.problem-solving-fourth h5 {
+  color: #54AFD5;
+}
+
+.problem-solving-fourth .ui.grid {
+  justify-content: center;
+  padding: 1em;
+  gap: 15px;
+
+
+}
+
+.problem-solving-fourth .ui.grid .column {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.problem-solving-fourth .ui.grid .ui.container {
+  width: 352px;
+  height: 400px;
+  position: relative;
+
+}
+
+.problem-solving-fourth .ui.grid .ui.container h1 {
+  font-size: 20px;
+}
+
+.problem-solving-fourth .ui.grid .ui.container h3 {
+  font-size: 15px;
+
+
+}
+
+.voices-first {
+  position: relative;
+  background-color: white;
+  background-image: url(./img/voices-background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  max-width: 100%;
+}
+
+.voices-first .ui.grid {
+  justify-content: center;
+  text-align: center;
+}
+
+.voices-first .ui.grid .voices-image {
+  background-color: white;
+  position: relative;
+  margin-top: 90px;
+  border-radius: 10px;
+}
+
+.voices-image img {
+  bottom: 80px;
+  position: relative;
+}
+
+.voices-first .ui.grid .container {
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  bottom: 30px;
+  padding: 2em;
+  vertical-align: text-top;
+  margin: 0;
+}
+
+.voices-first p {
+  font-size: 15px;
+  text-align: left;
+}
+
+.voices-first .container h3 {
+  font-size: 18px;
+  color: #93A4AF;
+}
+
+.voices-first .container h1 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.voices-second {
+  position: relative;
+  background-color: white;
+}
+
+.voices-second .ui.grid {
+  justify-content: center;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 2em;
+}
+
+.voices-second .ui.grid .container {
+  background-color: white;
+  border: 6px solid #53AED5;
+  border-radius: 6px;
+  border-style: solid;
+  padding: 0.5em;
+}
+
+.voices-second h3 {
+  color: #DCE0E3;
+  padding-top: 0.5em;
+}
+
+.voices-second h2 {
+  color: #53AED5;
+}
+
+.faq-title {
+  justify-content: center;
+  text-align: center;
+  padding-top: 2em;
+  color: white;
+}
+
+.faq-section {
+  position: relative;
+  background-color: #71A0C0;
+  justify-content: center;
+
+}
+
+.faq-section .ui.grid {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  justify-content: center;
+  text-align: left;
+
+}
+
+.faq-section .ui.grid .container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 2em;
+}
+
+
+.faq-section h1, .faq-section p {
+  display: inline;
+  line-height: 31.5px;
+
+}
+
+.hide-on-desktop {
+  display: none;
+}
+
+/*If you see this, just know that this is because I'm too lazy to find the actual
+problem to the green button. Would not be the first time I have done something
+like this*/
+
+/*Wait... found it. I'll leave this in here...*/
+/*
+.ui.blue.button {
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: #06C755;
+}
+*/
+
+.rectangle{
+  width:80px;
+  height:8px;
+  background:white;
+  border-radius: 15px;
+  align-items: center;
+  margin: auto;
+  margin-top: 0.5em;
+}
+
+
+.problem-solving-first .rectangle{
+  width:80px;
+  height:8px;
+  background:#EFF3F7;
+  border-radius: 15px;
+  align-items: center;
+  margin: auto;
+  margin-top: 0.5em;
+}
+
+/*For mobile devices. Max width of the device is 480px, so each testing instance assumes the phone has a resolution of 480px maximum*/
+  @media (max-device-width: 480px) {
+
+    .dropdown {
+        position: relative;
+        padding: 10px 30px;
+    }
+
+    .header {
+        height: 60px;
+    }
+
+    .middle.class.one {
+        background-image: url('img/hair_marche_mobille.png');
+        background-repeat: no-repeat;
+        height: auto;
+        min-width: 200px;
+        background-position: center;
+        object-fit: scale-down;
+
+
+    }
+
+    .landing_overlay {
+        height: 100%;
+        width: 100%;
+        background-image: none;
+      }
+
+    .middle.class.one .container {
+        position: absolute;
+        text-align: center;
+        right: 0px;
+        bottom: 200px;
+        justify-content: center;
+        background-color: white;
+        border-radius: .25em;
+        opacity: 0.7;
+
+    }
+
+    .middle.class.one .container h1 {
+        padding-top: 1em;
+        font-size: 20px;
+        color: black;
+    
+      }
+    
+      .middle.class.one .container h3 {
+        padding-bottom: 3em;
+        font-size: 20px;
+        color: black;
+      }
+
+      .middle-class-one .container .ui.green.button {
+        margin: -30px -85px;
+        
+    }
+
+    .voices-first {
+      background-image: linear-gradient(#E6E2DF, white, #DBD9D9);
+    }
+
+
+    /*This hides certain elements on mobile, and unhides on desktop*/
+    .hide-on-mobile {
+      display: none;
+    }
+
+    /*This hides certain elements on desktop, and unhides on mobile*/
+    .hide-on-desktop {
+      display: unset;
+    }
+
+    .problem-solving-third .ui.grid .grid-image {
+      rotate: 90deg;
+      margin-right: 40px;
+      width: 200px;
+      justify-content: center;
+      position: relative;
+    }
+
+}
