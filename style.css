@@ -307,6 +307,7 @@ body {
   
 }
 
+/*Bottom of the about page, as well as the bottom of most of the other pages*/
 .about-page-bottom h1 {
   color: #06C755;
 }
@@ -609,7 +610,7 @@ like this*/
 }
 
 
-/*Ditto*/
+/*Ditto, but different colour*/
 .problem-solving-first .rectangle {
   width:80px;
   height:8px;
