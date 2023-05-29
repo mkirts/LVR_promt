@@ -16,6 +16,8 @@ this might not be the most organized or intuitive setup for .CSS organization*/
 
 /*Comments appreciated!*/
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
 body {
     margin: 0;
     background-color:white;
@@ -107,6 +109,7 @@ body {
     height: auto;
     max-width: 100%;
     background-position: 100px 0px;
+    font-family: "Hiragino Sans GB";
   }
 
   .linechat.icon {
@@ -470,18 +473,29 @@ body {
   background-size: cover;
   height: auto;
   max-width: 100%;
+  padding-bottom: 2em;
+
 }
 
 .voices-first .ui.grid {
   justify-content: center;
-  text-align: center;
 }
 
+
+/*Modifications: height and width are now fixed to attempt to match the width and height in
+the prompt.*/
+/*Adjusted ".voices-image" class to match the prompt as best as possible*/
 .voices-first .ui.grid .voices-image {
   background-color: white;
   position: relative;
   margin-top: 90px;
   border-radius: 10px;
+  text-align: center;
+  height: 150px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .voices-image img {
@@ -489,30 +503,50 @@ body {
   position: relative;
 }
 
-.voices-first .ui.grid .container {
+.voices-first .container {
   background-color: white;
   border-radius: 10px;
   position: relative;
   bottom: 30px;
   padding: 2em;
-  vertical-align: text-top;
-  margin: 0;
+  margin: auto;
+  height: 426px;
+  width: 350px;
+  justify-content: center;
+  gap: 1.7em;
 }
 
-.voices-first p {
-  font-size: 15px;
-  text-align: left;
-}
-
-.voices-first .container h3 {
+.voices-first .title-bio h3 {
+  height: 24px;
   font-size: 18px;
-  color: #93A4AF;
+  text-align: center;
+  color: #93a4af;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
-.voices-first .container h1 {
-  font-size: 20px;
-  text-align: left;
+.voices-first .work-bio h3 {
+  height: 48px;
+  font-size: 12px;
+  line-height: 30px;
+  color: #93a4af;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
 }
+
+.voices-first .quote-bio h1 {
+  height: 96px;
+  font-size: 24px;
+  text-align: left;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.voices-first .descriptor p {
+  height: 184px;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: left;
+  font-family: 'Noto Sans JP', sans-serif;
+  }
 
 /*Additional content for the voices page*/
 .voices-second {
@@ -520,11 +554,31 @@ body {
   background-color: white;
 }
 
+.voices-second .voices-second-title {
+  padding-top: 3em;
+}
+
+.voices-second .voices-second-title .ui.grid .steps-title h1 {
+  color: black;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.voices-second .voices-second-title .ui.grid .steps-descriptor h3{
+  color: black;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+
+}
+
 .voices-second .ui.grid {
   justify-content: center;
   text-align: center;
-  padding-top: 4em;
-  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  gap: 1.7em;
 }
 
 .voices-second .ui.grid .container {
@@ -533,15 +587,20 @@ body {
   border-radius: 6px;
   border-style: solid;
   padding: 0.5em;
+  width: 352px;
+  height: 200px;
+  margin: auto;
 }
 
 .voices-second h3 {
   color: #DCE0E3;
   padding-top: 0.5em;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .voices-second h2 {
   color: #53AED5;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /*FAQ section that features basic QA*/
