@@ -358,6 +358,7 @@ body {
   border-right: 240px solid transparent;
   border-top: 80px solid white;
   margin: auto;
+  margin-bottom: 40px;
 }
 
 .triangle-text {
@@ -380,7 +381,6 @@ body {
 }
 
 .problem-solving-second .container {
-  padding-top: 4.5em;
   justify-content: center;
   text-align: center;
 
@@ -793,6 +793,11 @@ like this*/
       width: 200px;
       justify-content: center;
       position: relative;
+    }
+
+    .problem-solving-first .ui.grid {
+      padding-bottom: 0;
+
     }
 
 }
