@@ -351,19 +351,48 @@ body {
   padding-bottom: 2em;
 }
 
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 240px solid transparent;
+  border-right: 240px solid transparent;
+  border-top: 80px solid white;
+  margin: auto;
+}
+
+.triangle-text {
+  position: relative;
+  top: 50px;
+}
+
+.triangle-text h1 {
+  text-align: center;
+  width: 480px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  }
+
+
 .problem-solving-second {
   background-color:#EFF3F7;
+
 }
 
 .problem-solving-second .container {
   padding-top: 4.5em;
   justify-content: center;
   text-align: center;
+
+  
 }
 
 .problem-solving-second .ui.grid {
   justify-content: center;
   text-align: center;
+  z-index: 0;
+  position: relative;
+  
 }
 
 .problem-solving-second h3 {
@@ -672,7 +701,6 @@ like this*/
   margin: auto;
   margin-top: 0.5em;
 }
-
 
 /*Ditto, but different colour*/
 .problem-solving-first .rectangle {
