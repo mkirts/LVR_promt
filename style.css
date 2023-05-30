@@ -20,7 +20,6 @@ this might not be the most organized or intuitive setup for .CSS organization*/
 
 * {
   font-family: 'Noto Sans JP', sans-serif;
-
 }
 
 body {
@@ -176,7 +175,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .middle.class.two .container {
   text-align: center;
-  padding-top: 50px;
 }
 
 .middle.class.two .container h1, .middle.class.two .ui.container h3 {
@@ -191,6 +189,7 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: center;
   text-align: center;
   position: relative;
+  
 }
 /*End of middle class two section*/
 
@@ -198,7 +197,7 @@ h1, h2, h3, h4, h5, h6, p {
 /*The "footer" of the page. Current intent is to include a FAQ button and a separate CSS for its button*/
 .landing_page_bottom {
   background-color: #EFF3F7;
-  padding-bottom: 2em;
+
 }
 
 .landing_page_bottom .container {
@@ -209,17 +208,26 @@ h1, h2, h3, h4, h5, h6, p {
   color: #54AFD5;
   text-align: center;
   font-size: 35px;
+  
+  
 }
 
 .landing_page_bottom .ui.grid {
-  margin-top: 2em;
   justify-content: center;
   text-align: center;
   position: relative;
+
 }
 
 .landing_page_bottom h3 {
   font-size: 20px;
+}
+
+.landing_page_bottom img {
+  position: relative; 
+  right: 175px; 
+  top: 100px;
+
 }
 /*End of footer section*/
 
@@ -231,11 +239,12 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 2em;
   font-weight: 500;
   color:#53AED5;
+  background-color: white;
 
 }
 
 .about-page-main-content {
-  background-color: #EFF3F7;
+  background-color: white;
 
 }
 
@@ -370,8 +379,7 @@ h1, h2, h3, h4, h5, h6, p {
   border-left: 240px solid transparent;
   border-right: 240px solid transparent;
   border-top: 80px solid white;
-  margin: auto;
-  margin-bottom: 40px;
+  margin-top: -28px;
 }
 
 .triangle-text {
@@ -830,6 +838,7 @@ like this*/
       width: 200px;
       justify-content: center;
       position: relative;
+      left: 20px;
     }
 
     .problem-solving-first .ui.grid {
