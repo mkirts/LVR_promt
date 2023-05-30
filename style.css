@@ -279,6 +279,7 @@ h1, h2, h3, h4, h5, h6, p {
   position: relative;
   font-size: 16px;
   text-align: left;
+  font-weight: normal;
 }
 
 .about-page-main-content .container .ui.grid .column h1, .about-page-main-content .ui.container .ui.grid .column h3 {
@@ -346,8 +347,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .about-page-bottom .ui.green.button {
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 3em;
+  padding-right: 3em;
+  font-size: 30px;
 }
 
 /*Another about page, though asking some general questions while showcasing diagrams*/
@@ -764,6 +766,16 @@ like this*/
   margin-top: 0.5em;
 }
 
+.about-page-main-content .rectangle {
+  width:80px;
+  height:8px;
+  background:#EFF3F7;
+  border-radius: 15px;
+  align-items: center;
+  margin: auto;
+  margin-top: 0.5em;
+}
+
 /*Ditto, but different colour*/
 .problem-solving-first .rectangle {
   width:80px;
@@ -802,6 +814,12 @@ like this*/
         height: 100%;
         width: 100%;
         background-image: none;
+      }
+
+      .landing_page_bottom h3 {
+        text-align: left;
+        margin: auto;
+        font-size: 25px;
       }
 
     .middle.class.one .container {
@@ -844,6 +862,10 @@ like this*/
 
     .about-page-main-content .container .ui.grid .column h1 {
       font-size: 40px;
+    }
+
+    .about-page-main-content .container .ui.grid .column h3 {
+      font-size: 20px;
     }
 
     .voices-first {
