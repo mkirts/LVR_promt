@@ -18,10 +18,15 @@ this might not be the most organized or intuitive setup for .CSS organization*/
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
+* {
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
 body {
     margin: 0;
     background-color:white;
-}
+  }
 
 /*This sectin contains all the styles used for the top menu bar*/
 /*Also included is the CSS and implementation of JS script for cascading dropdown function*/
@@ -368,7 +373,7 @@ body {
 
 .triangle-text h1 {
   text-align: center;
-  width: 480px;
+  width: 295px;
   margin: auto;
   text-align: center;
   position: relative;
@@ -377,7 +382,7 @@ body {
 
 .problem-solving-second {
   background-color:#EFF3F7;
-
+  padding-top: 2em;
 }
 
 .problem-solving-second .container {
@@ -392,11 +397,21 @@ body {
   text-align: center;
   z-index: 0;
   position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: baseline;
   
 }
 
 .problem-solving-second h3 {
   font-weight: 525;
+  text-align: left;
+  font-style: normal;
+  line-height: 30px;
+}
+
+.problem-solving-second i {
+  font-size: 35px;
 }
 
 .problem-solving-third {
@@ -424,7 +439,6 @@ body {
   justify-content: center;
   font-size: 30px;
   
-
 }
 
 .problem-solving-third .ui.grid h1 {
@@ -434,10 +448,14 @@ body {
 
 .problem-solving-third .ui.grid h3 {
   text-align: center;
+  
 }
 
 .problem-solving-third .ui.grid .column .image {
   justify-content: center;
+  width: 214px;
+  height: 214px;
+  margin: auto;
 }
 
 .problem-solving-third .column {
@@ -446,11 +464,10 @@ body {
 }
 
 .problem-solving-third .ui.grid .grid-image {
-  width: 200px; 
+  width: 150px; 
   height: 30px;
   margin-top: 90px;
   margin-bottom: 90px;
-  margin-left: 30px;
 }
 
 
@@ -476,23 +493,35 @@ body {
 .problem-solving-fourth .ui.grid .column {
   background-color: white;
   border-radius: 15px;
+  width: 335px;
 }
 
-.problem-solving-fourth .ui.grid .ui.container {
-  width: 352px;
-  height: 400px;
+.problem-solving-fourth .ui.grid .container {
+
+  position: relative;
+  margin: auto;
+
+}
+
+.problem-solving-fourth .ui.grid .container h1 {
+  font-size: 24px;
+}
+
+.problem-solving-fourth .ui.grid .container h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
   position: relative;
 
+
 }
 
-.problem-solving-fourth .ui.grid .ui.container h1 {
-  font-size: 20px;
-}
-
-.problem-solving-fourth .ui.grid .ui.container h3 {
-  font-size: 15px;
-
-
+.problem-solving-fourth .ui.fluid.image {
+  width: 214px;
+  height: 214px;
+  margin: auto;
+  justify-content: center;
 }
 
 /*Voices page*/
@@ -800,4 +829,12 @@ like this*/
 
     }
 
+    .problem-solving-second h3 {
+      width: 350px;
+      margin-right: 2em;
+    }
+
+    .problem-solving-second i {
+      margin: auto;
+    }
 }
