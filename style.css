@@ -243,7 +243,8 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: center;
   padding: .5em;
   line-height: 60px;
-  
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .about-page-main-content .container {
@@ -255,16 +256,18 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .about-page-main-content .container .ui.grid .column h1 {
-  line-height: 60px;
+  line-height: 50px;
   position: relative;
-  font-size: 48px;
+  font-size: 44px;
   padding-bottom: 1em;
+  text-align: left;
 }
 
 .about-page-main-content .container .ui.grid .column h3 {
-  line-height: 35px;
+  line-height: 25px;
   position: relative;
-  font-size: 24px;
+  font-size: 16px;
+  text-align: left;
 }
 
 .about-page-main-content .container .ui.grid .column h1, .about-page-main-content .ui.container .ui.grid .column h3 {
@@ -276,6 +279,7 @@ h1, h2, h3, h4, h5, h6, p {
 .about-page-main-content .container .ui.grid .column img {
   justify-content: center;
   position: relative;
+  padding-top: 1em;
 }
 
 .about-page-second-content .container {
@@ -841,4 +845,19 @@ like this*/
     .problem-solving-second i {
       margin: auto;
     }
+
+    .move-left {
+      position: relative;
+      right: 50px;
+    }
+
+    .move-right {
+      position: relative;
+      left: 50px;
+    }
+
+    .about-page-main-content {
+      overflow: hidden;
+    }
+    
 }
