@@ -202,6 +202,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 .landing_page_bottom .container {
   position: relative;
+  padding-bottom: 2em;
+  padding-top: 0;
 }
 
 .landing_page_bottom h1{
@@ -316,6 +318,9 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: center;
   position: relative;
   text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+
 }
 
 .about-page-notice {
@@ -624,14 +629,13 @@ the prompt.*/
   font-family: 'Noto Sans JP', sans-serif;
   }
 
+
 /*Additional content for the voices page*/
 .voices-second {
   position: relative;
   background-color: white;
-}
-
-.voices-second .voices-second-title {
   padding-top: 3em;
+
 }
 
 .voices-second .voices-second-title .ui.grid .steps-title h1 {
@@ -639,6 +643,8 @@ the prompt.*/
   position: relative;
   text-align: center;
   justify-content: center;
+  font-size: 40px;
+  font-weight: normal;
 }
 
 .voices-second .voices-second-title .ui.grid .steps-descriptor h3{
@@ -646,13 +652,24 @@ the prompt.*/
   position: relative;
   text-align: center;
   justify-content: center;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: normal;
 
+}
+
+.voices-second-triangle {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 40px solid #53AED5;
+  margin-top: -40px;
 }
 
 .voices-second .ui.grid {
   justify-content: center;
   text-align: center;
-  padding-top: 2em;
   padding-bottom: 4em;
   gap: 1.7em;
 }
@@ -815,6 +832,18 @@ like this*/
       .middle-class-one .container .ui.green.button {
         margin: -30px -85px;
         
+    }
+
+    .landing_page_bottom img {
+      position: relative; 
+      right: 220px; 
+      top: 110px;
+      height: 40%;
+      width: 40%;
+    }
+
+    .about-page-main-content .container .ui.grid .column h1 {
+      font-size: 40px;
     }
 
     .voices-first {
