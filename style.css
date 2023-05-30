@@ -28,6 +28,10 @@ body {
     background-color:white;
   }
 
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 /*This sectin contains all the styles used for the top menu bar*/
 /*Also included is the CSS and implementation of JS script for cascading dropdown function*/
 /*See 'script.js'*/
