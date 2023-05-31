@@ -879,7 +879,6 @@ like this*/
     }
 
     .problem-solving-third .ui.grid {
-      background-color: #EFF3F7;
       text-align: center;
       justify-content: center;
       font-size: 30px;
@@ -909,6 +908,12 @@ like this*/
       justify-content: center;
       position: relative;
       left: 20px;
+    }
+
+
+    .problem-solving-third .container {
+      padding-left: 1em;
+      padding-right: 1em;
     }
 
     .problem-solving-first .ui.grid {
