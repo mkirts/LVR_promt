@@ -233,9 +233,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 .landing_page_bottom img {
   position: relative; 
+  margin-bottom: -400px;
   right: 175px; 
-  top: 100px;
-
+  top: -35px;
 }
 /*End of footer section*/
 
@@ -865,9 +865,9 @@ like this*/
     .landing_page_bottom img {
       position: relative; 
       right: 220px; 
-      top: 110px;
-      height: 40%;
-      width: 40%;
+      top: -60px;
+      height: 150px;
+      width: 150px;
     }
 
     .about-page-main-content .container .ui.grid .column h1 {
