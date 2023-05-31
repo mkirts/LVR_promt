@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .about-page-bottom {
   background-color: #EDFFF3;
-  padding-top: 5em;
+  padding-top: 2em;
   padding-bottom: 2em;
   text-align: center;
   justify-content: center;
@@ -461,6 +461,8 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
   justify-content: center;
   font-size: 30px;
+  display: flex;
+  flex-flow: row nowrap;
   
 }
 
@@ -826,7 +828,7 @@ like this*/
         position: absolute;
         text-align: center;
         right: 0px;
-        bottom: 200px;
+        bottom: 150px;
         justify-content: center;
         background-color: white;
         border-radius: .25em;
@@ -848,7 +850,7 @@ like this*/
       }
 
       .middle-class-one .container .ui.green.button {
-        margin: -30px -85px;
+        margin: -30px -55px;
         
     }
 
@@ -866,6 +868,15 @@ like this*/
 
     .about-page-main-content .container .ui.grid .column h3 {
       font-size: 20px;
+    }
+
+    .problem-solving-third .ui.grid {
+      background-color: #EFF3F7;
+      text-align: center;
+      justify-content: center;
+      font-size: 30px;
+      display: unset;
+      
     }
 
     .voices-first {
