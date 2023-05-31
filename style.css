@@ -142,8 +142,8 @@ h1, h2, h3, h4, h5, h6, p {
     padding-left: 1em;
   }
 
-.middle.class.one .container h1, .middle.class.one .ui.container h3 {
-    color: #FFFFFF;
+.middle.class.one .container h1 {
+    color: black;
     justify-content: center;
 
   }
@@ -157,8 +157,10 @@ h1, h2, h3, h4, h5, h6, p {
   }
 
   .middle.class.one .container h3 {
+    color: white;
     font-size: 30px;
     font-weight: normal;
+    text-shadow: 2px 2px 5px black;
 
   }
 
@@ -440,8 +442,8 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 35px;
 }
 
-.problem-solving-third {
-  background-color: #EFF3F7;
+.problem-solving-third .container {
+  background-color: white;
   justify-content: center;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -460,7 +462,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .problem-solving-third .ui.grid {
-  background-color: #EFF3F7;
+  background-color: white;
   text-align: center;
   justify-content: center;
   font-size: 30px;
@@ -487,7 +489,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .problem-solving-third .column {
-  background-color: white;
+  background-color: #EFF3F7;
   
 }
 
