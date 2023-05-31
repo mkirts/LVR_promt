@@ -799,6 +799,15 @@ like this*/
   margin-top: 0.5em;
 }
 
+.right-triangle {
+  height: 0;
+  width: 0;
+  margin: auto;
+  border-top: 20px solid #EFF3F7;
+  border-right: 20px solid transparent;
+  justify-content: center;
+}
+
 /*For mobile devices. Max width of the device is 480px, so each testing instance assumes the phone has a resolution of 480px maximum*/
   @media (max-device-width: 480px) {
 
@@ -923,7 +932,8 @@ like this*/
 
     .problem-solving-second h3 {
       width: 350px;
-      margin-right: 2em;
+      margin-right: 1em;
+      overflow: hidden;
     }
 
     .problem-solving-second i {
@@ -945,8 +955,8 @@ like this*/
     }
 
     .faq-section .ui.grid {
-      width: 440px;
-      margin: auto;
+      width: 480px;
+      overflow: hidden;
     
     }
     
