@@ -730,6 +730,8 @@ the prompt.*/
   padding-right: 4em;
   justify-content: center;
   text-align: left;
+  width: 990px;
+  margin: auto;
 
 }
 
@@ -935,6 +937,12 @@ like this*/
 
     .about-page-main-content {
       overflow: hidden;
+    }
+
+    .faq-section .ui.grid {
+      width: 440px;
+      margin: auto;
+    
     }
     
 }
