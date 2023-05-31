@@ -115,8 +115,12 @@ h1, h2, h3, h4, h5, h6, p {
     background-image: url('img/hair_marche.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    background-position: top;
+    height: 70%;
     max-width: 100%;
+    position: relative;
+    padding-bottom: 12em;
+    
   }
 
   .linechat.icon {
@@ -129,31 +133,25 @@ h1, h2, h3, h4, h5, h6, p {
   }
 
   .landing_overlay {
-    height: 100%;
+    height: auto;
     width: 50%;
-    background-image: linear-gradient(to right, rgba(86, 88, 89, 1), 50%, rgba(0,0,0,0));
-    background-size: cover;
+
   }
   
  .middle.class.one .container {
     text-align: center;
-    top: 325px;
+    top: 125px;
     position: relative;
-    padding-left: 1em;
+    
   }
 
 .middle.class.one .container h1 {
     color: black;
     justify-content: center;
-
-  }
-
-  .middle.class.one .container h1 {
     padding-top: 3em;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: normal;
 
-    
   }
 
   .middle.class.one .container h3 {
@@ -177,10 +175,13 @@ h1, h2, h3, h4, h5, h6, p {
 .middle.class.two {
   padding-top: 1em;
   background-color: white;
+  
 }
 
 .middle.class.two .container {
   text-align: center;
+  position: relative;
+
 }
 
 .middle.class.two .container h1, .middle.class.two .ui.container h3 {
