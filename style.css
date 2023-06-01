@@ -817,6 +817,7 @@ footer {
   text-align:left;
   float:left;
   margin-left: 1em;
+  padding-top: 0.2em;
 }
 
 footer .ui.secondary.button{
@@ -824,10 +825,11 @@ footer .ui.secondary.button{
   position: relative;
   background-color: black;
   position: relative;
-  bottom: 48px;
+  bottom: 51px;
   width: 20%;
   border-radius: 0;
   left: 1em;
+  padding-top: 0.2em;
 }
 
 
@@ -835,6 +837,7 @@ footer .ui.secondary.button{
   text-align: center;
   position: relative;
   right: 75px;
+  padding-top: 0.2em;
 }
 
 /*For mobile devices. Max width of the device is 480px, so each testing instance assumes the phone has a resolution of 480px maximum*/
