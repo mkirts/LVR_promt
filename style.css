@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /*Second portion which includes several columns that are used to separate icons*/
 .middle.class.two {
-  padding-top: 1em;
+  padding-top: 2em;
   background-color: white;
   
 }
@@ -181,6 +181,8 @@ h1, h2, h3, h4, h5, h6, p {
 .middle.class.two .container {
   text-align: center;
   position: relative;
+  padding-top: 1em;
+  padding-bottom: 3em;
 
 }
 
@@ -449,7 +451,7 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: center;
   margin-bottom: 1em;
   margin-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
 }
 
 .problem-solving-third h1 {
@@ -573,6 +575,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .voices-first .ui.grid {
   justify-content: center;
+}
+
+.voices-first .but-first h3 {
+  color: white;
 }
 
 
@@ -713,7 +719,7 @@ the prompt.*/
 .faq-title {
   justify-content: center;
   text-align: center;
-  padding-top: 2em;
+  padding-top: 3em;
   color: white;
 }
 
@@ -725,10 +731,9 @@ the prompt.*/
 }
 
 .faq-section .ui.grid {
-  padding-top: 1em;
-  padding-bottom: 1em;
   padding-left: 4em;
   padding-right: 4em;
+  padding-top: 2em;
   justify-content: center;
   text-align: left;
   width: 990px;
