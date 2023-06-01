@@ -683,7 +683,7 @@ the prompt.*/
 .voices-second .ui.grid {
   justify-content: center;
   text-align: center;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   gap: 1.7em;
 }
 
