@@ -851,18 +851,22 @@ like this*/
         right: 0px;
         top: 400px;
         justify-content: center;
-        background-color: white;
-        border-radius: .25em;
-        opacity: 0.7;
+
         
 
     }
 
-    .middle.class.one .container h1 {
-        padding-top: 0.5em;
+    .middle.class.one .container span {
         color: black;
-        margin: 0;
+        background-color: white;
+        border-radius: .25em;
+        opacity: 0.7;
+        margin: auto;
         padding: 0;
+        text-align: center;
+        justify-content: center;
+        
+        
 
     
       }
@@ -870,12 +874,16 @@ like this*/
       .middle.class.one .container h3 {
         font-size: 20px;
         color: black;
-        
+        text-shadow: none;
+        background-color: gray;
+        padding-bottom: 2.5em;
+        padding-top: 1em;
       }
 
-      .middle-class-one .container .ui.green.button {
-        margin: -30px -55px;
-    }
+      .middle.class.one .container .button_container button{
+        top: 320px;
+        
+      }
 
     .landing_page_bottom img {
       position: relative; 
