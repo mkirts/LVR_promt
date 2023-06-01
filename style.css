@@ -809,6 +809,32 @@ like this*/
   justify-content: center;
 }
 
+footer {
+  padding-top: 1em;
+}
+
+.footer-left{
+  text-align:left;
+  float:left;
+  margin-left: 1em;
+}
+
+footer .ui.secondary.button{
+  float: right;
+  position: relative;
+  background-color: black;
+  position: relative;
+  bottom: 48px;
+  width: 20%;
+  border-radius: 0;
+  left: 1em;
+}
+
+
+.footer-center{
+  text-align: center;
+}
+
 /*For mobile devices. Max width of the device is 480px, so each testing instance assumes the phone has a resolution of 480px maximum*/
   @media (max-device-width: 480px) {
 
