@@ -831,8 +831,10 @@ footer .ui.secondary.button{
 }
 
 
-.footer-center{
+.footer-center {
   text-align: center;
+  position: relative;
+  right: 75px;
 }
 
 /*For mobile devices. Max width of the device is 480px, so each testing instance assumes the phone has a resolution of 480px maximum*/
@@ -998,6 +1000,10 @@ footer .ui.secondary.button{
       width: 480px;
       overflow: hidden;
     
+    }
+
+    footer .ui.secondary.button{
+      left: 0.25em;
     }
     
 }
