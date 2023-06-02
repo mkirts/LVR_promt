@@ -5,6 +5,8 @@ As per instructions, the webpage:
 1) Contains all of the content from the other HTML files along with other edits
 2) Was created as closely to the mockup as possible.
 
+As this Microsoft Edge was used to test the webpage, it is recommended to use Microsoft Edge to see everything aligned properly. Screenshots have been provided in the event Edge is not installed.
+
 Features:
 - Responsive design: the site will readjust the viewport when resizing, and has a responsive layout for when the user is on mobile
 - Quick menu: the top bar menu (which was originally used to lead to other pages) has been repurposed as a "quick menu" bar. This will take the users to specific parts of the page
