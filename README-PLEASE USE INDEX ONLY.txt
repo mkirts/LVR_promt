@@ -11,3 +11,4 @@ Features:
 - Adjustments to site: The site has some additional adjustments to both the style and the fonts. These adjustments include changes to font sizes, font families (according to the prompt, Hiragino Sans was being used, though I switched to Noto Sans JP).
 
 NOTE: Minor edits will still be made until 1700 Hours on June 1 HST (1200 Hours on June 2 JST).
+NOTE: Mobile view assumes a resolution width of 480px.
