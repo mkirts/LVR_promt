@@ -909,9 +909,8 @@ footer .ui.secondary.button{
     
       .middle.class.one .container h3 {
         font-size: 20px;
-        color: black;
-        text-shadow: none;
-        background-color: gray;
+        color: white;
+        background-color: #dbdbdb;
         padding-bottom: 2.5em;
         padding-top: 1em;
       }
