@@ -896,12 +896,12 @@ footer .ui.secondary.button{
         color: black;
         background-color: white;
         border-radius: .25em;
-        opacity: 0.7;
         margin: auto;
-        padding: 0;
+        line-height: 60px;
+        font-size: 48px;
         text-align: center;
         justify-content: center;
-        
+        padding: auto;
         
 
     
@@ -916,8 +916,12 @@ footer .ui.secondary.button{
       }
 
       .middle.class.one .container .button_container button{
-        top: 320px;
+        top: 380px;
         
+      }
+
+      .middle.class.two .container {
+        padding-top: 3em;
       }
 
     .landing_page_bottom img {
